@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Site-Rafa-Express/static/css/main.ea748c77.chunk.css",
-    "main.js": "/Site-Rafa-Express/static/js/main.f68b415d.chunk.js",
-    "main.js.map": "/Site-Rafa-Express/static/js/main.f68b415d.chunk.js.map",
+    "main.js": "/Site-Rafa-Express/static/js/main.306b9e32.chunk.js",
+    "main.js.map": "/Site-Rafa-Express/static/js/main.306b9e32.chunk.js.map",
     "runtime-main.js": "/Site-Rafa-Express/static/js/runtime-main.cfee22f4.js",
     "runtime-main.js.map": "/Site-Rafa-Express/static/js/runtime-main.cfee22f4.js.map",
     "static/js/2.f5aef5a5.chunk.js": "/Site-Rafa-Express/static/js/2.f5aef5a5.chunk.js",
@@ -11,12 +11,15 @@
     "static/js/3.660e4652.chunk.js.map": "/Site-Rafa-Express/static/js/3.660e4652.chunk.js.map",
     "index.html": "/Site-Rafa-Express/index.html",
     "static/css/main.ea748c77.chunk.css.map": "/Site-Rafa-Express/static/css/main.ea748c77.chunk.css.map",
-    "static/js/2.f5aef5a5.chunk.js.LICENSE.txt": "/Site-Rafa-Express/static/js/2.f5aef5a5.chunk.js.LICENSE.txt"
+    "static/js/2.f5aef5a5.chunk.js.LICENSE.txt": "/Site-Rafa-Express/static/js/2.f5aef5a5.chunk.js.LICENSE.txt",
+    "static/media/cart-icon.790f3061.png": "/Site-Rafa-Express/static/media/cart-icon.790f3061.png",
+    "static/media/creditCard.bd0fdb07.jpeg": "/Site-Rafa-Express/static/media/creditCard.bd0fdb07.jpeg",
+    "static/media/logoRafaExpressWhite.8c1c1378.png": "/Site-Rafa-Express/static/media/logoRafaExpressWhite.8c1c1378.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cfee22f4.js",
     "static/js/2.f5aef5a5.chunk.js",
     "static/css/main.ea748c77.chunk.css",
-    "static/js/main.f68b415d.chunk.js"
+    "static/js/main.306b9e32.chunk.js"
   ]
 }
