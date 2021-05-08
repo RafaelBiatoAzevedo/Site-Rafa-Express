@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img-logo {
+  cursor: pointer;
+  width: 200px;
+}
+
+.header-container {
+  align-items: center;
+  background-color: #5d20b0;
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+
+}
+
+.logo-input-container {
+  align-items: center;
+  display: flex;
+}
+
+.input-search {
+  border-radius: 10px;
+  padding: 10px;
+  width: 600px;
+}
+
+.cart-container {
+  align-items: center;
+  display: flex;
+}
+
+.header-greeting, .header-user, .cart-counter {
+  color: white;
+  margin-left: 10px;
+}

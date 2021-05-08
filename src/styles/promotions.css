@@ -1,0 +1,39 @@
+.subtitle-promotions {
+  color: #5d20b0;
+  font-size: 30px;
+  margin: 20px 0px 0px 30px;
+}
+
+.products-promotions {
+  display: flex;
+  justify-content: center;
+}
+
+.porcent-products-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px ;
+}
+
+.porcent-container {
+  display: flex;
+  justify-content: center;
+}
+
+.promotion-box {
+  border: solid #5d20b0 1.5px;
+}
+
+.span-porcent {
+  display: flex;
+  background-color: #5d20b0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 180px;
+  width: 270px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 10px 0px 10px;
+  padding: 5px 10px 5px 12px;
+}

@@ -1,0 +1,167 @@
+import { SAVE_CATEGORIES, SAVE_CATEGORY, SAVE_GREETING, SAVE_PRODUCTS, SAVE_INPUT } from '../action';
+
+const INICIAL_STATE = {
+  promotions: [
+    {
+      "id": "MLB1590428881",
+      "site_id": "MLB",
+      "title": "Smart Tv Samsung Series 5 Un43t5300agxzd Led Full Hd 43 100v/240v",
+      "seller": {},
+      "price": 2031.9,
+      "prices": {},
+      "sale_price": null,
+      "currency_id": "BRL",
+      "available_quantity": 148,
+      "sold_quantity": 254,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "stop_time": "2040-07-05T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://www.mercadolivre.com.br/smart-tv-samsung-series-5-un43t5300agxzd-led-full-hd-43-100v240v/p/MLB15796379",
+      "thumbnail": "http://http2.mlstatic.com/D_803594-MLA42540097481_072020-I.jpg",
+      "thumbnail_id": "803594-MLA42540097481_072020",
+      "accepts_mercadopago": true,
+      "installments": {},
+      "address": {},
+      "shipping": {},
+      "seller_address": {},
+      "attributes": [],
+      "differential_pricing": {},
+      "original_price": null,
+      "category_id": "MLB1002",
+      "official_store_id": 2352,
+      "domain_id": "MLB-TELEVISIONS",
+      "catalog_product_id": "MLB15796379",
+      "tags": [],
+      "catalog_listing": true,
+      "use_thumbnail_id": true,
+      "order_backend": 7
+    },
+    {
+      "id": "MLB1746327620",
+      "site_id": "MLB",
+      "title": "Caixa De Som Amvox Aca 250 Groove Portátil Com Bluetooth Preta 110v/220v",
+      "seller": {},
+      "price": 499,
+      "prices": {},
+      "sale_price": null,
+      "currency_id": "BRL",
+      "available_quantity": 238,
+      "sold_quantity": 874,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "stop_time": "2040-12-16T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://www.mercadolivre.com.br/caixa-de-som-amvox-aca-250-groove-portatil-com-bluetooth-preta-110v220v/p/MLB16388224",
+      "thumbnail": "http://http2.mlstatic.com/D_692524-MLA44337476667_122020-I.jpg",
+      "thumbnail_id": "692524-MLA44337476667_122020",
+      "accepts_mercadopago": true,
+      "installments": {},
+      "address": {},
+      "shipping": {},
+      "seller_address": {},
+      "attributes": [],
+      "differential_pricing": {},
+      "original_price": 529,
+      "category_id": "MLB11507",
+      "official_store_id": 2707,
+      "domain_id": "MLB-SPEAKERS",
+      "catalog_product_id": "MLB16388224",
+      "tags": [],
+      "catalog_listing": true,
+      "use_thumbnail_id": true,
+      "order_backend": 7
+    },
+    {
+      "id": "MLB1644391400",
+      "site_id": "MLB",
+      "title": "Kit Bolsas Feminina 3 Peças Sacola Saco E Carteira Tendencia",
+      "seller": {},
+      "price": 64.9,
+      "prices": {},
+      "sale_price": null,
+      "currency_id": "BRL",
+      "available_quantity": 500,
+      "sold_quantity": 500,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_pro",
+      "stop_time": "2040-08-27T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://produto.mercadolivre.com.br/MLB-1644391400-kit-bolsas-feminina-3-pecas-sacola-saco-e-carteira-tendencia-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_877741-MLB44761871570_012021-O.jpg",
+      "thumbnail_id": "877741-MLB44761871570_012021",
+      "accepts_mercadopago": true,
+      "installments": {},
+      "address": {},
+      "shipping": {},
+      "seller_address": {},
+      "attributes": [],
+      "differential_pricing": {},
+      "original_price": null,
+      "category_id": "MLB7022",
+      "official_store_id": null,
+      "domain_id": "MLB-HANDBAGS",
+      "catalog_product_id": null,
+      "tags": [],
+      "order_backend": 6,
+      "use_thumbnail_id": false
+    },
+    {
+      "id": "MLB1680826375",
+      "site_id": "MLB",
+      "title": "Óculos De Sol Hype Retro Vintage Retangular Preto Unissex",
+      "seller": {},
+      "price": 38,
+      "prices": {},
+      "sale_price": null,
+      "currency_id": "BRL",
+      "available_quantity": 1,
+      "sold_quantity": 500,
+      "buying_mode": "buy_it_now",
+      "listing_type_id": "gold_special",
+      "stop_time": "2040-10-07T04:00:00.000Z",
+      "condition": "new",
+      "permalink": "https://produto.mercadolivre.com.br/MLB-1680826375-oculos-de-sol-hype-retro-vintage-retangular-preto-unissex-_JM",
+      "thumbnail": "http://http2.mlstatic.com/D_723494-MLB44184233543_112020-O.jpg",
+      "thumbnail_id": "723494-MLB44184233543_112020",
+      "accepts_mercadopago": true,
+      "installments": {},
+      "address": {},
+      "shipping": {},
+      "seller_address": {},
+      "attributes": [],
+      "original_price": null,
+      "category_id": "MLB8378",
+      "official_store_id": null,
+      "domain_id": "MLB-SUNGLASSES",
+      "catalog_product_id": null,
+      "tags": [],
+      "order_backend": 1,
+      "use_thumbnail_id": false
+    },
+  ],
+  inputSearch: '',
+  greeting: '',
+  category: '',
+  products: [],
+  categories: [],
+};
+
+const stateHome = ( state = INICIAL_STATE, action) => {
+  switch (action.type) {
+    case SAVE_INPUT:
+      return { ...state, inputSearch: action.input };
+    case SAVE_PRODUCTS:
+      return { ...state, loading: false, products: [...action.products] };
+    case SAVE_CATEGORIES:
+      return { ...state, categories: [...action.categories] };
+    case SAVE_CATEGORY:
+      return { ...state, category: action.category };
+    case SAVE_GREETING:
+      return { ...state, greeting: action.greeting }
+    default:
+      return state;
+  }
+}
+
+export default stateHome;

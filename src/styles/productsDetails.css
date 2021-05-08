@@ -1,0 +1,141 @@
+.header-details {
+  align-items: center;
+  background-color: #5d20b0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5d20b0;
+  padding: 0px 30px;
+}
+
+.link-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid white 2px;
+  border-radius: 90px;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 2px 4px 6px 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.icon-cart {
+  width: 55px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.products-details {
+  border: solid #5d20b0 1.5px;
+  border-radius: 5px;
+  color: #5d20b0;
+  display: flex;
+  justify-content: space-between;
+  margin: 32px;
+}
+
+.buy-container {align-items: center;
+  border: solid #5d20b0 1.5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 32px;
+  padding: 30px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+
+.img-container {
+  padding: 20px;
+}
+
+.detail-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-details {
+  height: 300px;
+}
+
+.quantity-container {
+  align-self: center;
+  display: flex;
+}
+
+.span-quantity {
+  color: #5d20b0;
+  font-size: 20px;
+  margin: 0px 10px;
+  padding: 3px;
+  text-align: center;
+  width: 40px;
+}
+
+.btn-down, .btn-up {
+  background-color: #5d20b0;
+  border: none;
+  border-radius: 90px;
+  color: white;
+  font-size: 20px;
+  width: 30px;
+}
+
+.label-cep {
+  color: red;
+}
+
+.input-cep {
+  background-color: white;
+  border: solid red 1.5px;
+  border-radius: 9px;
+  color: #5d20b0;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin: 0px 10px;
+  width: 100px;
+}
+
+.values-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 260px;
+  height: 80px;
+}
+
+.values {
+  color: #5d20b0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-buy-details {
+  font-size: 20px;
+}
+
+.link-cancel {
+  color: red;
+  text-decoration: none;
+}

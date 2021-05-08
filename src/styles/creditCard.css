@@ -1,0 +1,23 @@
+.credit-container {
+  align-items: center;
+  display: flex;
+  background-color: #5d20b0;
+  justify-content: center;
+  height: 100px;
+  margin: 40px 30px;
+}
+
+.title-subtitle-credit {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+}
+
+.img-card {
+  border-radius: 9px;
+  width: 200px;
+  margin: 60px;
+  transform: rotate(13deg);
+}
